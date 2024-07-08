@@ -32,7 +32,7 @@ class KiT extends Event{
 
 
 
-public class Abstrat {
+public class Abstrat{
     public static void main(String[] args) {
         Event ent = new KiT("red","CODE-KIT","JONES");
         System.out.println("color of JAVA.Event:"+ent.getColor());

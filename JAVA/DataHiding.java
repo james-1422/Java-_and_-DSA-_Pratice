@@ -1,6 +1,6 @@
 package JAVA;
 
-class person {
+class person{
     private int age;
     private String name;
 
