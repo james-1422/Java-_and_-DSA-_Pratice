@@ -1,4 +1,4 @@
-package JAVA;
+package JAVA.OOPS;
 
 abstract class Event{
     private String color;
@@ -35,9 +35,9 @@ class KiT extends Event{
 public class Abstrat{
     public static void main(String[] args) {
         Event ent = new KiT("red","CODE-KIT","JONES");
-        System.out.println("color of JAVA.Event:"+ent.getColor());
-        System.out.println("Name of JAVA.Event:"+ent.nameOfEvent());
-        System.out.println("Name of the voluenter in the JAVA.Event:"+ent.voluenterName());
+        System.out.println("color of JAVA.OOPS.Event:"+ent.getColor());
+        System.out.println("Name of JAVA.OOPS.Event:"+ent.nameOfEvent());
+        System.out.println("Name of the voluenter in the JAVA.OOPS.Event:"+ent.voluenterName());
 
     }
 }

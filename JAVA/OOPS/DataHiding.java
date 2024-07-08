@@ -1,4 +1,4 @@
-package JAVA;
+package JAVA.OOPS;
 
 class person{
     private int age;
