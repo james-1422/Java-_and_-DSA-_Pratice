@@ -5,7 +5,7 @@ import java.util.Arrays;
 // Find first occurence of 7
 public class FirstAndLastPosition {
 	static int[] FirstAndLastNumBS(int[] arr, int trg){
-		int[] ans ={-1,-1};
+		int [] ans ={-1,-1};
 		//check for first occr
 		int start=search(arr,trg,true);
 		int end = search(arr,trg,false);
