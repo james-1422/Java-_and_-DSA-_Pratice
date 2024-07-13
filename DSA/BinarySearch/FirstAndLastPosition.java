@@ -14,7 +14,7 @@ public class FirstAndLastPosition {
 		return ans;
 	}
 
-static 	int search(int[] arr,int trg,boolean findStrartIndex){
+static int search(int[] arr,int trg,boolean findStrartIndex){
 		int ans =-1;
 		//check for first occr
 		int start = 0;
