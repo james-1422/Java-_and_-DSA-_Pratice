@@ -7,10 +7,10 @@ public class FirstAndLastPosition {
 	static int[] FirstAndLastNumBS(int[] arr, int trg){
 		int[] ans ={-1,-1};
 		//check for first occr
-		int start=search(arr,trg,true);
-		int end = search(arr,trg,false);
-		ans[0]=start;
-		ans[1]=end;
+		ans[0]=search(arr,trg,true);
+		if(ans[0] != -1) {
+			ans[1] = search(arr, trg, false);
+		}
 		return ans;
 	}
 
