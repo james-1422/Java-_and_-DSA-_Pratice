@@ -10,8 +10,8 @@ public class primeNumber {
 		return true;
 	}
 
-	public static void main(String[] args) {
-		boolean ans = isPrime(4);
-		System.out.println(ans);
-	}
+//	public static void main(String[] args) {
+//		boolean ans = isPrime(4);
+//		System.out.println(ans);
+//	}
 }
